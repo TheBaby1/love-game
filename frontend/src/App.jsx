@@ -18,6 +18,16 @@ const questions = [
     question: "Asa ta nag first kiss?",
     options: ["JTH 2 Building", "Gawas sa dorm nila rikka", "Bunzel Building", "Mambaling"],
     correct: "Gawas sa dorm nila rikka"
+  },
+  {
+    question: "Asa ta first nag sleep together?",
+    options: ["JTH 2 Building", "Old Dorm Above The Pharmacy", "Q Hotel", "D'new Inn"],
+    correct: "Old Dorm Above The Pharmacy"
+  },
+  {
+    question: "Asa ta nag first play ug valorant?",
+    options: ["Domain", "Drippy Lab", "Game City", "TNC"],
+    correct: "TNC"
   }
 ];
 
@@ -80,7 +90,7 @@ function App() {
         <div className="result">
           <h2>Quiz Completed!</h2>
           <h3>Your score: {score} out of {questions.length}</h3>
-          <h3>{score === questions.length ? "You're a love expert!" : "Nice try, better luck next time!"}</h3>
+          <h3>{score === questions.length ? "Expert Kaayu Oh!" : "Noooo! But Why!!"}</h3>
           <p>
             Hey, I know at this time you’re still mad at me, but I made this little quiz game for our 
             monthsary. I hope you like it, even if it’s a simple one.
